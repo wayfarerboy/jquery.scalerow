@@ -3,7 +3,7 @@ jQuery ScaleRow plugin
 
 A plugin to mimic a Google Image Search results layout
 
-INTRODUCTION
+## INTRODUCTION
 
 Inspired by the thumbnail scaling seen on Google Image Search pages, I developed this plugin.  The plugin
 takes a list of thumbs (or other items with static width and height attributes) and measures each item,
@@ -12,7 +12,7 @@ grouping them into scaled rows and centering them vertically.
 Also included in the thumbs directory is a bash script to generate 100 thumbnail images and
 associated html code for testing purposes.
 
-INSTALLATION
+## INSTALLATION
 
 Clone the repository into your web server (preferably where you store your other jQuery plugins. 
 Then add the following to the head of your web page:
@@ -21,7 +21,7 @@ Then add the following to the head of your web page:
     <script type="text/javascript" src="jquery.scalerow.js"></script>
     <link href="stylesheets/scalerow.css" media="screen" rel="stylesheet" type="text/css" />
   
-USAGE
+## USAGE
 
 The plugin takes the following arguments:
 
